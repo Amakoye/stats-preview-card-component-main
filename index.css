@@ -109,6 +109,10 @@ body {
     margin: 0 10px 30px 35px;
   }
 
+  .text-container .main-text h3 {
+    font-size: 32px;
+  }
+
   .img-container {
     width: 50%;
   }
