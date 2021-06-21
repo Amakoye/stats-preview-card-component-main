@@ -118,7 +118,22 @@ body {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
+  .text-container {
+    width: 45%;
+    margin: 0 10px 30px 35px;
+  }
+
+  .text-container .main-text h3 {
+    font-size: 32px;
+  }
+
+  .img-container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .container {
     display: flex;
     flex-direction: column-reverse;
@@ -164,7 +179,7 @@ body {
   }
 
   .img-container {
-    height: 45vh;
+    height: 70vh;
     width: 100%;
     background-image: url("./images/image-header-mobile.jpg");
     background-repeat: no-repeat;
@@ -172,6 +187,13 @@ body {
     opacity: 1;
     border-bottom-right-radius: 0;
     border-top-left-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-container {
+    height: 45vh;
+    width: 100%;
   }
 }
 
