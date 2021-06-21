@@ -179,7 +179,7 @@ body {
   }
 
   .img-container {
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     background-image: url("./images/image-header-mobile.jpg");
     background-repeat: no-repeat;
@@ -190,9 +190,17 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 699px) {
+  .text-container .main-text h3 {
+    font-size: 40px;
+  }
+
+  .text-container .main-text p {
+    font-size: 18px;
+  }
+
   .img-container {
-    height: 45vh;
+    height: 30vh;
     width: 100%;
   }
 }
