@@ -40,7 +40,7 @@ body {
 
 .stats {
   display: grid;
-  margin: 30px 0 10px 0;
+  margin: 40px 0 10px 0;
   grid-template-columns: auto auto auto;
 }
 
@@ -59,7 +59,7 @@ body {
 
 .img-container {
   position: relative;
-  width: 55%;
+  width: 50%;
   background-image: url("./images/image-header-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,6 +92,26 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    background: hsl(244, 38%, 16%);
+    border-radius: 5px;
+    margin: 160px auto 150px auto;
+  }
+
+  .text-container {
+    width: 45%;
+    margin: 0 10px 30px 35px;
+  }
+
+  .img-container {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 700px) {
