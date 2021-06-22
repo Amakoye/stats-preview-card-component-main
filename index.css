@@ -118,81 +118,18 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1999px) {
+  .container {
+    width: 80%;
+  }
+
   .text-container {
     width: 45%;
     margin: 0 10px 30px 35px;
   }
 
   .text-container .main-text h3 {
-    font-size: 32px;
-  }
-
-  .img-container {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .container {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 80%;
-    align-items: center;
-  }
-
-  .text-container {
-    text-align: center;
-    width: 100%;
-  }
-
-  .text-container .main-text h3 {
-    margin: 15px;
-    font-size: 45px;
-  }
-
-  .text-container .main-text p {
-    margin: 10px;
-    font-size: 21px;
-    font-weight: 200;
-    line-height: 30px;
-  }
-
-  .stats {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .stats-figures {
-    margin: 15px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .stats h3 {
-    font-size: 30 px;
-  }
-
-  .stats p {
-    font-size: 14px;
-  }
-
-  .img-container {
-    height: 50vh;
-    width: 100%;
-    background-image: url("./images/image-header-mobile.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 5px;
-  }
-}
-
-@media screen and (max-width: 699px) {
-  .text-container .main-text h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .text-container .main-text p {
@@ -200,8 +137,86 @@ body {
   }
 
   .img-container {
-    height: 30vh;
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .container {
+    width: 90%;
+  }
+
+  .text-container .main-text h3 {
+    font-size: 30px;
+  }
+
+  .text-container .main-text p {
+    font-size: 16px;
+  }
+
+  .stats h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .container {
     width: 100%;
+  }
+
+  .text-container {
+    width: 45%;
+  }
+  .text-container .main-text h3 {
+    font-size: 25px;
+  }
+
+  .text-container .main-text p {
+    font-size: 13px;
+  }
+
+  .stats h3 {
+    font-size: 18px;
+  }
+
+  .stats p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  .img-container {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .container {
+    width: 100%;
+  }
+
+  .text-container {
+    width: 40%;
+    margin: 0 5px 30px 15px;
+  }
+
+  .text-container .main-text h3 {
+    font-size: 22px;
+  }
+
+  .text-container .main-text p {
+    font-size: 12px;
+  }
+
+  .stats h3 {
+    font-size: 16px;
+  }
+
+  .stats p {
+    font-size: 9px;
+  }
+
+  .img-container {
+    width: 60%;
   }
 }
 
@@ -219,12 +234,6 @@ body {
 
   .img-container {
     height: 30vh;
-    background-image: url("./images/image-header-mobile.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 5px;
   }
 
   .stats {
