@@ -11,7 +11,7 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  max-width: 65%;
   background: hsl(244, 38%, 16%);
   border-radius: 5px;
   margin: 160px auto 150px auto;
@@ -19,11 +19,11 @@ body {
 
 .text-container {
   width: 50%;
-  margin: 0 55px 30px 50px;
+  margin: 0 60px 30px 60px;
 }
 
 .text-container .main-text h3 {
-  font-size: 35px;
+  /* font-size: 120px; */
   color: hsl(0, 0%, 100%);
 }
 
@@ -220,15 +220,72 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 599px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .text-container .main-text {
+    margin: auto 15px auto 15px;
+  }
   .text-container .main-text h3 {
-    margin: 10px;
-    font-size: 27px;
+    font-size: 30px;
+    text-align: center;
   }
 
   .text-container .main-text p {
-    margin: 10px 10px 0 10px;
-    font-size: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats .stats-figures {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .stats h3 {
+    font-size: 22px;
+  }
+
+  .stats P {
+    font-size: 14px;
+  }
+
+  .img-container {
+    width: 100%;
+    height: 38vh;
+    background-image: url("./images/image-header-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .text-container .main-text h3 {
+    font-size: 20px;
+  }
+
+  .text-container .main-text p {
+    font-size: 11px;
     font-weight: normal;
   }
 
@@ -236,28 +293,18 @@ body {
     height: 30vh;
   }
 
-  .stats {
-    margin: 15px 0 0 0;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .stats-figures {
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .stats h3 {
-    font-size: 25px;
+    font-size: 18px;
+  }
+  .stats p {
+    font-size: 9px;
   }
 
-  .stats p {
-    font-size: 14px;
+  .img-container {
+    height: 25vh;
   }
 
   .attribution {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
