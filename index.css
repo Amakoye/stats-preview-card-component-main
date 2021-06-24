@@ -94,7 +94,7 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1300px) {
   .container {
     display: flex;
     flex-direction: row;
@@ -110,11 +110,11 @@ body {
   }
 
   .text-container .main-text h3 {
-    font-size: 32px;
+    font-size: 35px;
   }
 
   .img-container {
-    width: 50%;
+    width: 55%;
   }
 }
 
