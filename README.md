@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github link](https://github.com/Amakoye/stats-preview-card-component-main.git)
-- Live Site URL: [demo link](https://qr-code-component-main-2t4johakn-amakoye.vercel.app/)
+- Live Site URL: [demo link](https://stats-preview-card-component-main-puce.vercel.app/)
 
 ## My process
 
